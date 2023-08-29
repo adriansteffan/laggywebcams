@@ -1,0 +1,9 @@
+version: "3"
+services:
+    mb2-webcam-eyetracking:
+        build: .
+        ports: 
+            - "127.0.0.1:10690:80"
+        volumes:
+            - "./data:/var/www/data"
+        restart: always
