@@ -3,7 +3,7 @@ services:
     laggy-webcams:
         build: .
         ports: 
-            - "127.0.0.1:10690:80"
+            - "127.0.0.1:10680:80"
         volumes:
             - "./data:/var/www/data"
         restart: always
