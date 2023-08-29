@@ -1,6 +1,6 @@
 version: "3"
 services:
-    mb2-webcam-eyetracking:
+    laggy-webcams:
         build: .
         ports: 
             - "127.0.0.1:10690:80"
